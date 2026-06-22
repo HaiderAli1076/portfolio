@@ -46,7 +46,7 @@ export default function HeroContent() {
           View Projects
         </a>
         <a
-          href="/resume.pdf"
+          href={`${import.meta.env.BASE_URL}resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full sm:w-auto px-8 py-3 glass text-text-primary font-semibold rounded-lg hover:text-accent-primary text-center"

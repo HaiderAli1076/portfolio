@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "TubeRanker",
-    image: "/projects/tuberanker.webp",
+    image: "projects/tuberanker.webp",
     impact: "AI-powered YouTube growth SaaS featuring AI content generation, SEO auditing, competitor tracking, and subscription billing.",
     description: "Built end-to-end SaaS using Next.js, PostgreSQL, Prisma, Redis, BullMQ, Stripe, and OpenAI integration.",
     tech: ["Next.js","PostgreSQL","Prisma","Redis","BullMQ","Stripe","OpenAI API"],
@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     title: "AeroSky",
-    image: "/projects/aerosky.webp",
+    image: "projects/aerosky.webp",
     impact: "Weather dashboard with forecasting, caching, retries, and resilient API handling.",
     description: "Flask + SQLite backend with HTTPX, weather APIs, favorites management, and responsive dashboard UI.",
     tech: ["Python","Flask","SQLite","HTTPX"],
@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     title: "Doctor AI",
-    image: "/projects/doctor-ai.webp",
+    image: "projects/doctor-ai.webp",
     impact: "Conversational AI healthcare assistant for symptom analysis and medical information retrieval.",
     description: "Secure authentication and AI-powered conversation flows.",
     tech: ["Python","Authentication","AI APIs"],

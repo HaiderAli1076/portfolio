@@ -16,7 +16,7 @@ export default function ProjectCard({ project }) {
         {/* Image */}
         <div className="w-full aspect-video bg-bg-elevated rounded-lg flex items-center justify-center border border-white/5 shadow-inner mb-5 relative overflow-hidden shrink-0 group">
           <img 
-            src={image} 
+            src={`${import.meta.env.BASE_URL}${image}`} 
             alt={title} 
             loading="lazy"
             className="w-full h-full object-cover"

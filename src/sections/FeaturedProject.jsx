@@ -34,7 +34,7 @@ export default function FeaturedProject() {
           {/* Image */}
           <div className="w-full lg:w-1/2 aspect-video bg-bg-elevated rounded-xl flex items-center justify-center border border-white/5 shadow-inner shrink-0 relative overflow-hidden group">
             <img 
-              src={featured.image} 
+              src={`${import.meta.env.BASE_URL}${featured.image}`} 
               alt={featured.title} 
               className="w-full h-full object-cover"
               onError={(e) => {

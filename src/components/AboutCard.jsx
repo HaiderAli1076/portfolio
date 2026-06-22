@@ -10,7 +10,7 @@ export default function AboutCard() {
       {/* Profile Photo */}
       <div className="w-48 h-48 md:w-64 md:h-auto md:aspect-square bg-bg-elevated rounded-2xl flex items-center justify-center relative overflow-hidden border border-white/5 shadow-inner shrink-0">
         <img 
-          src="/images/haider.jpg" 
+          src={`${import.meta.env.BASE_URL}images/haider.jpg`} 
           alt={name} 
           className="w-full h-full object-cover"
           onError={(e) => {
