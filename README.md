@@ -30,6 +30,8 @@ A modern, responsive, AI-powered developer portfolio built with React, Vite, Tai
    ```bash
    npm run dev
    ```
+   *The app will be available at [http://localhost:5173/](http://localhost:5173/)*
+
 4. Build for production:
    ```bash
    npm run build
