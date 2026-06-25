@@ -123,7 +123,7 @@ const htmlContent = `
 
   <h2>Education</h2>
   <div class="item-block">
-    <div class="item-title">BS Computer Science (BSCS)</div> — <div class="item-desc">University of Agriculture, Faisalabad (2022 - Present)</div>
+    <div class="item-title">BS Computer Science (BSCS)</div> — <div class="item-desc">University of Agriculture, Faisalabad (2024 - Present)</div>
   </div>
 
   <h2>Career Objective</h2>

@@ -105,7 +105,7 @@ def generate_pdf():
     Story.append(Paragraph("<b>E-Hunarmand Program</b> — Government Program, 2025", style_item))
 
     add_heading("Education")
-    Story.append(Paragraph("<b>BS Computer Science (BSCS)</b> — University of Agriculture, Faisalabad (2022 - Present)", style_item))
+    Story.append(Paragraph("<b>BS Computer Science (BSCS)</b> — University of Agriculture, Faisalabad (2024 - Present)", style_item))
 
     add_heading("Career Objective")
     Story.append(Paragraph("Seeking an internship or junior software engineering role where I can contribute to real-world projects, strengthen my technical skills, and grow as a Full-Stack Developer.", style_body))
